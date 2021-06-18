@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - this function checks the state of  random number assigned to n
+ * is positive or negative
+ * Return: the function returns 0
+ */
 int main(void)
 {
 int n;
