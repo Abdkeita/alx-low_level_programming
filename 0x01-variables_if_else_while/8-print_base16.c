@@ -5,16 +5,16 @@
  * Return: The function returns 0
  */
 int main() {
-int num = '0';
-char c;
+char m;
 
-while (num <= '9')
+for (m = '0' ; m <= '9' ; m++)
 {
-putchar(num);
-num++;
-if(num > '9')
-for( c = 'a'; c <= 'f'; c++)
-putchar(c);
+putchar(m);
+}
+for (m = 'a' ; m <= 'f' ; m++)
+{
+putchar(m);
+}
 putchar('\n');
-return 0;
+return (0);
 }
