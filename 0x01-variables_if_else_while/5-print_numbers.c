@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - this is the main function
- *description: prints out single digit number in base 10 from 0
- *return: the function returns 0
+ * main - This is the main function
+ * Description: It prints all single digit numbers followed by new line
+ * Return: the function returns 0
  */
 int main(void)
 {
