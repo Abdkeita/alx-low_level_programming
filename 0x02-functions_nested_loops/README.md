@@ -1,0 +1,1 @@
+this is week 3 poject on functions nested loops, contain all script for week 3
