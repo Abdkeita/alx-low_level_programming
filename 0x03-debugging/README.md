@@ -1,0 +1,1 @@
+week 3: Debugging on scripts which will be tested with betty
