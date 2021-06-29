@@ -1,0 +1,1 @@
+this directory contain week 5 task on pointers and array in c programming

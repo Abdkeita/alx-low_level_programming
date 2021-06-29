@@ -1,0 +1,10 @@
+#include "holberton.h"
+/**
+ * main : takes pointer to an int and assign 98
+ * Returns 0
+ */
+
+void reset_to_98(int *n)
+{
+*n = 98;
+}
