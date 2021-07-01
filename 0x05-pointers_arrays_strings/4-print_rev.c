@@ -1,15 +1,21 @@
-#include "holberton.h"
 
 /**
-* main - check the code for ALX School students.
-*
-* Return: Always 0.
-*/
-int main(void)
+ * print_rev - prints a string, in reverse, followed by a new line.
+ * @s: input string.
+ * Return: no return.
+ */
+void print_rev(char *s)
 {
-char *str;
+int count = 0;
 
-str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-print_rev(str);
-return (0);
+while (count >= 0)
+{
+if (s[count] == '\0')
+break;
+count++;
+}
+
+for (count--; count >= 0; count--)
+_putchar(s[count]);
+_putchar('\n');
 }
